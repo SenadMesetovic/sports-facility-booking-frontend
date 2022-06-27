@@ -32,12 +32,27 @@
       <h1>Instantly book sports facilities</h1>
 
       <div class="search-container">
-        <input class="search-input" type="text" placeholder="Location" />
-        <button class="location-button">
-          <i class="fa-solid fa-location-arrow"></i>
-        </button>
-        <input class="search-input" type="text" placeholder="Choose sport" />
-        <input class="search-input" type="date" placeholder="Choose date" />
+        <div class="inputs-container">
+          <div class="location-input">
+            <input class="search-input" type="text" placeholder="Location" />
+            <button class="location-button">
+              <i class="fa-solid fa-location-arrow"></i>
+            </button>
+          </div>
+          <select class="search-input" type="text" placeholder="Choose sport">
+            <option value="Football">Football</option>
+            <option value="Basketball">Basketball</option>
+            <option value="Tennis">Tennis</option>
+            <option value="Snooker">Snooker</option>
+            <option value="Swimming">Swimming</option>
+            <option value="Volleyball">Volleyball</option>
+          </select>
+          <input
+            class="search-input date-input"
+            type="date"
+            placeholder="Choose date"
+          />
+        </div>
 
         <button class="search-button btn">
           Search <i class="fa-solid fa-magnifying-glass"></i>

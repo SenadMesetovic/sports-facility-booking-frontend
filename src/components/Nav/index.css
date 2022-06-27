@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Gloria+Hallelujah&family=Merienda:wght@700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.nav-top {
+  height: 60px;
+  background-color: white;
+  /* background-image: linear-gradient(rgb(245, 245, 245), #d6d3d3); */
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  overflow: hidden;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+/* LOGO AND TEXT FOR LOGO*/
+.logo-with-text-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.logo-img {
+  height: 80%;
+}
+
+.text-for-logo {
+  font-size: 1.2rem;
+  color: #382525;
+  /* font-family: "Comfortaa", cursive; */
+  font-family: "Merienda", cursive;
+  font-style: italic;
+}
+
+/* NAVIGATION BUTTONS */
+.nav-buttons-container {
+  display: flex;
+  align-items: center;
+}
+.nav-btn {
+  margin-right: 10px;
+  padding: 9px;
+  /* border: 1px solid; */
+  border: none;
+  font-size: 15px;
+  background-color: #fff;
+  color: #505050;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+}
+.nav-btn:hover {
+  color: rgb(218, 63, 63);
+  transform: scale(1.02);
+}
