@@ -1,0 +1,68 @@
+{
+  "football": [
+    {
+      "name": "FIS Sport",
+      "assets": [0.3, "Changing room"],
+      "img": "/images/football1.jpg"
+    },
+    {
+      "name": "Arena X",
+      "assets": [0.7, "Floodlights"],
+      "img": "/images/football2.jpg"
+    },
+    {
+      "name": "Centar Skenderija",
+      "assets": [1.5, "Changing room"],
+      "img": "/images/football3.jpg"
+    },
+    {
+      "name": "SRC Sporta Hotonj",
+      "assets": [2.1, "Changing room"],
+      "img": "/images/football4.jpg"
+    }
+  ],
+  "basketball": [
+    {
+      "name": "FIS Sport",
+      "assets": [0.3, "Changing room"],
+      "img": "./img/basketball1.jpg"
+    },
+    {
+      "name": "Arena X",
+      "assets": [0.7, "Floodlights"],
+      "img": "./img/basketball2.jpg"
+    },
+    {
+      "name": "Centar Skenderija",
+      "assets": [1.5, "Changing room"],
+      "img": "./img/basketball3.jpg"
+    },
+    {
+      "name": "SRC Sporta Hotonj",
+      "assets": [2.1, "Changing room"],
+      "img": "./img/basketball4.jpg"
+    }
+  ],
+  "tennis": [
+    {
+      "name": "Teniski Centar Stup",
+      "assets": [0.3, "Changing room"],
+      "img": "./img/tennis1.jpg"
+    },
+    {
+      "name": "Teniski klub Una",
+      "assets": [0.7, "Floodlights"],
+      "img": "./img/tennis2.jpg"
+    },
+    {
+      "name": "Centar Skenderija",
+      "assets": [1.5, "Changing room"],
+      "img": "./img/tennis2.jpg"
+    },
+    {
+      "name": "GTA Teniska Akademija",
+      "assets": [2.1, "Changing room"],
+      "img": "./img/tennis2.jpg"
+    }
+  ]
+}

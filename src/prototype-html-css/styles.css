@@ -252,10 +252,10 @@ body {
 }
 .items-nearby-nav li:hover {
   color: #df4141;
-  border: 1px solid #d4d4d4;
-  border-bottom: none;
+  /* border: 1px solid #d4d4d4; */
+  /* border-bottom: none; */
   transition: border 0.3s ease;
-  box-shadow: 2px -2px 3px #e0e0e0;
+  /* box-shadow: 2px -2px 3px #e0e0e0; */
 }
 .items {
   display: grid;
@@ -265,8 +265,8 @@ body {
   padding: 15px;
   gap: 20px;
   width: 900px;
-  border: 1px solid #d4d4d4;
-  box-shadow: 2px -2px 3px #e0e0e0;
+  /* border: 1px solid #d4d4d4; */
+  /* box-shadow: 2px -2px 3px #e0e0e0; */
   border-radius: 10px;
 
   /* background-color: lightgreen; */
