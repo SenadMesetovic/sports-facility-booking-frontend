@@ -1,6 +1,5 @@
 import React from "react";
 import "./index.css";
-import itemImg from "./img/football1.jpg";
 import facilities from "../../facilities.json";
 
 function Item(props) {
@@ -8,10 +7,10 @@ function Item(props) {
     <div className="item">
       <img src={props.img} alt="football-pitch" />
       <div className="item-description">
-        <p className="item-title">FIS Sport</p>
+        <p className="item-title">{props.title}</p>
         <ul className="item-assets">
-          <li>&#9873; 0.3km away</li>
-          <li>&#10003; Changing room</li>
+          <li>&#9873; {props.assets[0]}km away</li>
+          <li>&#10003; {props.assets[1]}</li>
         </ul>
         <p className="book-today">BOOK TODAY</p>
       </div>

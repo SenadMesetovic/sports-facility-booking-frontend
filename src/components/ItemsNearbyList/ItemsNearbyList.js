@@ -1,29 +1,49 @@
-import React from "react";
+import { React, useState } from "react";
 import "./index.css";
 import Item from "../Item/Item.js";
 import facilities from "../../facilities.json";
-import image from "../Item/img/football2.jpg";
+import sportsList from "../../sportsList.json";
+
 function ItemsNearbyList() {
+  const [activeSport, setActiveSport] = useState(sportsList.mostPopular[0]);
+
+  function handleClickOnNav(e) {
+    setActiveSport(e.target.id);
+  }
+
   return (
     <div className="items-nearby-container">
       <h2>Most popular sports facilities near you</h2>
       <div className="items-with-nav">
         <nav className="items-nearby-nav">
           <ul>
-            <li>Football</li>
-            <li>Basketball</li>
-            <li>Tennis</li>
-            <li>Golf</li>
-            <li>Swiming</li>
-            <li>Snooker</li>
+            {sportsList.mostPopular.map((sportName) => {
+              return (
+                <li
+                  key={sportName}
+                  id={sportName}
+                  className={sportName === activeSport ? "active" : ""}
+                  onClick={handleClickOnNav}
+                >
+                  {sportName}
+                </li>
+              );
+            })}
           </ul>
         </nav>
         <div className="items">
-          <Item img={facilities.football[0].img} />
-          <Item img={facilities.football[1].img} />
-          <Item img={facilities.football[2].img} />
-          <Item img={facilities.football[3].img} />
+          {facilities[activeSport.toLowerCase()].map((fields) => {
+            return (
+              <Item
+                key={fields.name}
+                img={fields.img}
+                title={fields.name}
+                assets={fields.assets}
+              />
+            );
+          })}
         </div>
+        <a href="">See more</a>
       </div>
     </div>
   );
