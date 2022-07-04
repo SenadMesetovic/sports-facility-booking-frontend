@@ -1,6 +1,5 @@
 import React from "react";
 import "./index.css";
-import facilities from "../../facilities.json";
 
 function Item(props) {
   return (

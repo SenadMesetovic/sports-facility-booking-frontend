@@ -1,11 +1,11 @@
 import { React, useState } from "react";
 import "./index.css";
 import Item from "../Item/Item.js";
-import facilities from "../../facilities.json";
+import testdata from "../../testdata.json";
 import sportsList from "../../sportsList.json";
 
 function ItemsNearbyList() {
-  const [activeSport, setActiveSport] = useState(sportsList.mostPopular[0]);
+  const [activeSport, setActiveSport] = useState(testdata.sportsList[0]);
 
   function handleClickOnNav(e) {
     setActiveSport(e.target.id);
@@ -17,7 +17,7 @@ function ItemsNearbyList() {
       <div className="items-with-nav">
         <nav className="items-nearby-nav">
           <ul>
-            {sportsList.mostPopular.map((sportName) => {
+            {testdata.sportsList.map((sportName) => {
               return (
                 <li
                   key={sportName}
@@ -32,7 +32,7 @@ function ItemsNearbyList() {
           </ul>
         </nav>
         <div className="items">
-          {facilities[activeSport.toLowerCase()].map((fields) => {
+          {testdata.facilities[activeSport.toLowerCase()].map((fields) => {
             return (
               <Item
                 key={fields.name}

@@ -1,0 +1,28 @@
+{
+  "facility": {
+    "id": 1,
+    "name": "Vauxhall sport center",
+    "desctription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident pariatur blanditiis, laboriosam dolorum itaque reiciendis, cumque eligendi explicabo molestias nostrum fugiat suscipit nesciunt similique. Praesentium quam voluptate excepturi quae iste.",
+    "img": "url",
+    "location": {
+      "city": "city name",
+      "street": "street name",
+      "address": "some address",
+      "geo-location": { "lat": "43.856430", "lon": "18.413029" }
+    },
+    "contact": { "phone": "+38761123456", "email": "someemail@gmail.com" },
+    "work-days": {
+      "sunday": { "work-time": { "start": "08:00", "end": "22:00" } },
+      "monday": { "work-time": { "start": "08:00", "end": "22:00" } },
+      "tuesday": { "work-time": { "start": "08:00", "end": "22:00" } },
+      "wednesday": { "work-time": { "start": "08:00", "end": "22:00" } },
+      "friday": { "work-time": { "start": "08:00", "end": "22:00" } },
+      "saturday": { "work-time": { "start": "08:00", "end": "22:00" } }
+    },
+    "available-time": [
+      { "time-and-date": "23.01.2023 20:30", "price": "number" },
+      { "time-and-date": "23.01.2023 21:00", "price": "number" },
+      { "time-and-date": "23.01.2023 21:30", "price": "number" }
+    ]
+  }
+}

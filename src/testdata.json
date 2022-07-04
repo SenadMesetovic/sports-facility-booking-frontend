@@ -1,0 +1,144 @@
+{
+  "facilities": {
+    "football": [
+      {
+        "name": "FIS Sport",
+        "assets": [0.3, "Changing room"],
+        "img": "/images/football1.jpg"
+      },
+      {
+        "name": "Arena X",
+        "assets": [0.7, "Floodlights"],
+        "img": "/images/football2.jpg"
+      },
+      {
+        "name": "Centar Skenderija",
+        "assets": [1.5, "Indoor"],
+        "img": "/images/football3.jpg"
+      },
+      {
+        "name": "SRC Sporta Hotonj",
+        "assets": [2.2, "Changing room"],
+        "img": "/images/football4.jpg"
+      }
+    ],
+    "basketball": [
+      {
+        "name": "KSC Ilijas",
+        "assets": [0.3, "Floodlights"],
+        "img": "/images/basketball1.jpg"
+      },
+      {
+        "name": "OS Podlugovi",
+        "assets": [0.5, "Indoor"],
+        "img": "/images/basketball2.jpg"
+      },
+      {
+        "name": "KSC Vogosca",
+        "assets": [2.6, "Changing room"],
+        "img": "/images/basketball3.jpg"
+      },
+      {
+        "name": "Centar Skenderija",
+        "assets": [3.8, "Changing room"],
+        "img": "/images/basketball4.jpg"
+      }
+    ],
+    "tennis": [
+      {
+        "name": "Teniski Centar Stup",
+        "assets": [0.3, "Changing room"],
+        "img": "/images/tennis1.jpg"
+      },
+      {
+        "name": "Teniski klub Una",
+        "assets": [0.5, "Floodlights"],
+        "img": "/images/tennis2.jpg"
+      },
+      {
+        "name": "Centar Skenderija",
+        "assets": [1.8, "Changing room"],
+        "img": "/images/tennis3.jpg"
+      },
+      {
+        "name": "GTA Teniska Akademija",
+        "assets": [2.9, "Changing room"],
+        "img": "/images/tennis4.jpg"
+      }
+    ],
+    "golf": [
+      {
+        "name": "Golf klub Sarajevo",
+        "assets": [0.3, "Equipment"],
+        "img": "/images/golf1.jpg"
+      },
+      {
+        "name": "VF Golf Teren",
+        "assets": [0.5, "Equipment"],
+        "img": "/images/golf2.jpg"
+      },
+      {
+        "name": "Golf klub Tuzla",
+        "assets": [1.8, "Floodlights"],
+        "img": "/images/golf3.jpg"
+      },
+      {
+        "name": "Golf klub Mostar",
+        "assets": [2.9, "Equipment"],
+        "img": "/images/golf4.jpg"
+      }
+    ],
+    "swimming": [
+      {
+        "name": "Ilidza termalna Riviera",
+        "assets": [0.3, "Floodlights"],
+        "img": "/images/swimming1.jpg"
+      },
+      {
+        "name": "Olimpijski bazen Otoka",
+        "assets": [0.5, "Changing room"],
+        "img": "/images/swimming2.jpg"
+      },
+      {
+        "name": "KSC Vogosca",
+        "assets": [1.8, "Floodlights"],
+        "img": "/images/swimming3.jpg"
+      },
+      {
+        "name": "Zeleni Vir",
+        "assets": [2.9, "Changing room"],
+        "img": "/images/swimming4.jpg"
+      }
+    ],
+    "billiard": [
+      {
+        "name": "Billiard Darts Club 69",
+        "assets": [0.3, "Pool stick"],
+        "img": "/images/billiard1.jpg"
+      },
+      {
+        "name": "Cue",
+        "assets": [0.5, "Equipment"],
+        "img": "/images/billiard2.jpg"
+      },
+      {
+        "name": "Dynamic Billiard Club",
+        "assets": [1.8, "Pool stick"],
+        "img": "/images/billiard3.jpg"
+      },
+      {
+        "name": "Mercur SBC",
+        "assets": [2.9, "Equipment"],
+        "img": "/images/billiard4.jpg"
+      }
+    ]
+  },
+  "sportsList": [
+    "Football",
+    "Basketball",
+    "Tennis",
+    "Golf",
+    "Swimming",
+    "Billiard"
+  ]
+}
